@@ -1,0 +1,5 @@
+﻿@inherits UmbracoViewPage<UmbracoModelsBuilderThirdParties.ViewModels.EventViewModel>
+
+<h1>@Model.EventbriteEvent.Name.Text</h1>
+@Html.Raw(Model.EventbriteEvent.Description.Html)
+@Html.Raw(Model.UmbEvent.ExtraInfo)
